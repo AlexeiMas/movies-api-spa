@@ -1,0 +1,42 @@
+.titleWrap {
+  padding: unset !important;
+}
+
+.arrow {
+  color: white !important;
+  &::before {
+    background-color: white;
+    border: 1px solid #dadde9;
+  }
+}
+
+.description {
+  color: #9b9b9b;
+}
+
+.date {
+  color: #528a35
+}
+
+.noPoster {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9b9b9b;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.card {
+  img:hover {
+    user-select: none;
+    -webkit-user-drag: none;
+    filter: grayscale(.5);
+  }
+}
+
+.title {
+  cursor: pointer;
+}
